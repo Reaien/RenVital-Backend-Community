@@ -12,6 +12,7 @@ import com.example.renvitalbackend.Repositories.PostRepository;
 import com.example.renvitalbackend.Repositories.RespuestaRepository;
 
 @RestController
+@CrossOrigin
 @RequestMapping("/respuestas")
 public class RespuestaController {
 

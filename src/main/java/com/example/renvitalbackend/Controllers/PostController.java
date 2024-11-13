@@ -10,6 +10,7 @@ import com.example.renvitalbackend.Repositories.PostRepository;
 import java.util.List;
 
 @RestController
+@CrossOrigin
 @RequestMapping("/posts")
 public class PostController {
 
